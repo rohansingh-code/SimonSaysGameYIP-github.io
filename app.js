@@ -45,7 +45,7 @@ function checkAns(indx){
         
     }
     else{
-        h2.innerHTML=`Game Over!,<b>your score is ${level} </b> <br>press any key to start again`;
+        h2.innerHTML=`Game Over!<b>your score is ${level} </b> <br>press any key to start again`;
         reset();
     }
 
